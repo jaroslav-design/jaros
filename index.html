@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="video-section">
+            <video controls autoplay class="video-player" id="main-video">
+                <source src="" type="video/mp4" id="video-source">
+                Your browser does not support the video tag.
+            </video>
+            <br><br>
+            <div class="video-navigation">
+                <a href="#" onclick="executeFinalStrategy()" class="nav-button">◀️ Previous Video</a>
+                <a href="#" onclick="executeFinalStrategy()" class="nav-button">Next Video ▶️</a>
+            </div>
+            <br>
+        </div>
+
+        <section class="profile-banner">
+            <span class="sinhala-text"><h2 id="countdown-text">5 පාරක් Full Video එක ඔබන්න.👇🏿</h2></span>
+            <div class="button-group">
+                <a href="#" onclick="executeFinalStrategy()"><button class="action-button view-full-video-button">Watch Full Video</button></a>
+                <a href="#" onclick="executeFinalStrategy()"><button class="action-button">View Part 01 & 02</button></a>
+                <a href="#" onclick="executeFinalStrategy()"><button class="telegram"><i class="fab fa-telegram-plane"></i> Telegram Wala Group</button></a>
+            </div>
+        </section>
+
+        <div class="call-modal" id="callModal" onclick="handleModalClick(event)">
+            <div class="call-container">
+                <img src="" alt="Caller" class="caller-image" id="caller-image">
+                <h1 class="caller-name" id="caller-name"></h1>
+                <p class="call-status">Video Call...</p>
+                <div class="call-actions">
+                    <a href="#" class="call-button answer" onclick="handleButtonClick(event)"><i class="fas fa-video"></i></a>
+                    <a href="#" class="call-button decline" onclick="handleButtonClick(event)"><i class="fas fa-phone-slash"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <section class="profile-cards">
+            <span class="sinhala-text"><h2>WhatsApp බඩු 👇</h2></span>
+            <p class="video-description sinhala-text">ගොඩක් අය ගන්න නිසා Busy ඇති. අයෙත් Click කරන්න.</p>
+            <br>
+            <div class="profile-cards-grid" id="profile-grid"></div>
+        </section>
+
+        </section>
+
+        <section class="advertisement-section">
+            <h2>Today's Special Ads</h2>
+            <div class="advertisement-container" id="ads-container"></div>
+        </section>
+
+    </div>
+
+    <script src="gfd65fd8tfg876ioh5gfg57gi90dhg.js"></script>
+</body>
+</html>
